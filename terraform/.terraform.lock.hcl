@@ -2,19 +2,22 @@
 # Manual edits may be lost in future updates.
 
 provider "registry.terraform.io/hashicorp/aws" {
-  version = "3.22.0"
+  version     = "4.9.0"
+  constraints = "4.9.0"
   hashes = [
-    "h1:f/Tz8zv1Zb78ZaiyJkQ0MGIViZwbYrLuQk3kojPM91c=",
-    "zh:4a9a66caf1964cdd3b61fb3ebb0da417195a5529cb8e496f266b0778335d11c8",
-    "zh:514f2f006ae68db715d86781673faf9483292deab235c7402ff306e0e92ea11a",
-    "zh:5277b61109fddb9011728f6650ef01a639a0590aeffe34ed7de7ba10d0c31803",
-    "zh:67784dc8c8375ab37103eea1258c3334ee92be6de033c2b37e3a2a65d0005142",
-    "zh:76d4c8be2ca4a3294fb51fb58de1fe03361d3bc403820270cc8e71a04c5fa806",
-    "zh:8f90b1cfdcf6e8fb1a9d0382ecaa5056a3a84c94e313fbf9e92c89de271cdede",
-    "zh:d0ac346519d0df124df89be2d803eb53f373434890f6ee3fb37112802f9eac59",
-    "zh:d6256feedada82cbfb3b1dd6dd9ad02048f23120ab50e6146a541cb11a108cc1",
-    "zh:db2fe0d2e77c02e9a74e1ed694aa352295a50283f9a1cf896e5be252af14e9f4",
-    "zh:eda61e889b579bd90046939a5b40cf5dc9031fb5a819fc3e4667a78bd432bdb2",
+    "h1:iETaSoFOQkLlCCjmnPsIflMKdzzZaZww+IPS4AWYKBU=",
+    "zh:084b83aef3335ad4f5e4b8323c6fe43c1ff55e17a7647c6a5cad6af519f72b42",
+    "zh:132e47ce69f14de4523b84b213cedf7173398acda14245b1ffe7747aac50f050",
+    "zh:2068baef7dfce3613f3b4f27314175e971f8db68d9cde9ec30b5659f80c68c6c",
+    "zh:63c6f489683d5f1ac55e82a0df387143ed22701d5f22c109a4d5c9924dd4e437",
+    "zh:8115fd21965954fa4568c09331e05bb29da967fab8d077419aed09954378e216",
+    "zh:8efdc95fde108f777ed9c79ae25dc17aea9771903250f5c5c8a4c726b90a345f",
+    "zh:9b12af85486a96aedd8d7984b0ff811a4b42e3d88dad1a3fb4c0b580d04fa425",
+    "zh:9d42a7bc34d84b70c1d1bcc215cabd63abbcbd0352b70bd84da6c3916634932f",
+    "zh:aacbcceb241aa475888c0869e87593182edeced3170c76a0c960dd9c905df449",
+    "zh:c7fe7904511052e4102870256819a1917177572cf684f0611ebf767f9c1fbaa8",
+    "zh:c8e07c3424663d1d0e7e32f4ade8099c19f6326d37c6da98104d90c986ff66fc",
+    "zh:e47cafbd38b56ef14fd8d727b4ffea847c166b1c684f585ee5fb78983b537248",
   ]
 }
 
@@ -23,6 +26,7 @@ provider "registry.terraform.io/mrolla/circleci" {
   constraints = "0.4.0"
   hashes = [
     "h1:KYCwFK6I93eXzXycN0LAoBWgBb/0eLw/F0R3xn+BPVY=",
+    "h1:lLCgyJrFkE1gsskUsdJeLG8qWQOMeaTIawhh2KPoRKU=",
     "zh:11e1d565f13761c9a1898b2122c82d2b5fda9b9b2cc9452a1ce5d0d79a08abfb",
     "zh:1c7b1735319f1a981490a9d6a54255b6fbc6fb741e7ddd5e8ce8ab58915233cc",
     "zh:1ce97065bc8d88657435f46d9ef2b249f2339cf21a1ed13a2a87c4ef294b8af6",

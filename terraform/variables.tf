@@ -19,7 +19,7 @@ variable "name" {
 variable "organization" {
     description = "Github organization to use"
     type = string
-    default = "OpsMonkeys"
+    default = "excelprem"
 }
 
 variable "circleci_cli_token" {
